@@ -1,0 +1,21 @@
+/* body{
+    background-color: black;
+
+} */
+
+.container{
+    width: 700px;
+    height: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 6px;
+    margin: auto;
+    /* object-fit: contain; */
+}
+
+img{
+    width: 190px;
+    height: 200px;
+    border: 1px solid white;
+    /* margin: auto; */
+}
